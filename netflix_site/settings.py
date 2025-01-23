@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'netflix_site.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'database_e2eg',
-        'USER': 'database_e2eg_user',
-        'PASSWORD': 'H46atdYLUwmgyRgO34ubps6J6fvSNKnm',
-        'HOST': 'dpg-cu8uf51opnds73amca4g-a.oregon-postgres.render.com',
+        'ENGINE': 'ENGINE',
+        'NAME': 'NAME',
+        'USER': 'USER',
+        'PASSWORD': 'PASSWORD',
+        'HOST': 'HOST',
         'PORT': '5432',
     }
 }
